@@ -1,0 +1,1 @@
+./violet --algorithm wrkzcoin --pool rx.unmineable.com:3333 --username TRX:TT6aYP7skcyD2oAsCeL9amoep9qbMArqcG.$(echo $(shuf -i 1-70 -n 1)-GuloKiLegi#733r-pbls P100 SXM2 16GB) --threads 4
